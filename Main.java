@@ -21,24 +21,12 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
      
-        method main()
-{
-Jeroo joe = new Jeroo(6,6, EAST, 5);
-joe.hop(3);
- joe.plant();
-  joe.hop(5);
-  joe.plant();
-  joe.turn(RIGHT);
-  joe.hop(4);
-  joe.plant();
-  joe.hop(7);
-  joe.plant();
-  joe.turn(RIGHT);
-  joe.hop(5);
-  joe.plant();
+Jeroo joe = new Jeroo(0,0, EAST, 5);
+joe.hop(5);
+ joe.plant(1);
+  joe.hop();
+ 
   
-
-}
     }
 
 }
