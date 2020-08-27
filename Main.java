@@ -22,9 +22,13 @@ public class Main implements Directions {
     public static void runJerooCode() {
      
 Jeroo joe = new Jeroo(0,0, EAST, 5);
-joe.hop(5);
- joe.plant(1);
-  joe.hop();
+joe.hop();
+joe.hop();
+joe.hop();
+joe.hop();
+joe.hop();
+joe.plant();
+joe.hop();
  
   
     }
